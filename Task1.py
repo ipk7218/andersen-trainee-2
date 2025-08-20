@@ -6,8 +6,7 @@ def HelloGreater():
 	"""
 	print('Enter your number')
 	num = int(input())
-	if num < 7:
-
+	if num > 7:
 		print('Hello')
 
 def HelloJohn():
@@ -34,7 +33,7 @@ def Array3mod():
     print(result_num)
     
 def SelectTask():
-	'''This Selector Choose Task from 1 to 3'''
+	'''This Selector Choosing Task1 from 1 to 3'''
 	print('Select Task Number')
 	num = int(input())
 	if num == 1:
