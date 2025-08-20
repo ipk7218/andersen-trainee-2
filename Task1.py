@@ -34,7 +34,7 @@ def Array3mod():
     print(result_num)
     
 def SelectTask():
-	'''This Selector Choose Task 1 from 1 to 3'''
+	'''This Selector Choose Task from 1 to 3'''
 	print('Select Task Number')
 	num = int(input())
 	if num == 1:
