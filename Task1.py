@@ -26,7 +26,7 @@ def array_3_mod():
 	output array elements that are multiples of 3.
 	
 	"""
-    nums = input('Type your number(s): ').split(", ")
+    nums = input('Type your number(s). (Example: 1, 2, 3): ').split(", ")
     result_num = []
     for i in range(len(nums)):
         if int(nums[i]) % 3 == 0:
@@ -34,12 +34,24 @@ def array_3_mod():
     print(result_num)
     
 def select_task():
+	''' This code selecting code between Task1 and Task2'''
+	print('Select Task Number')
+	num = int(input())
+	if num == 1:
+		select_sub_task()
+	elif num == 2:
+		f = open('Task2.txt')
+		print(f.read())
+	else:
+		return None
+
+def select_sub_task():
 	'''
 	This Selector Choosing Task1 from 1 to 3. 
 	Also Checking Exception by Value cases.
 	
 	'''
-	print('Select Task Number')
+	print('Select Sub-Task Number')
 	num = int(input())
 	if num == 1:
 		try:
