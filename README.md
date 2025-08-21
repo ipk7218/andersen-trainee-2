@@ -15,6 +15,7 @@ COPYPATH is the path of your file Task1.py, for example:
 $
 "C:\Users\User\Downloads\Task1.py"
 `  
+If you have VCC then just run Task1.py.  
 Then you need to choose youe number of task (1 or 2)
 
 3. If you chose "1" then you need to choose sub-task:
