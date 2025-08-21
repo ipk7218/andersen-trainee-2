@@ -1,7 +1,7 @@
 # Introduce
 This is the 2nd attempt for trainee for Andersen.
 
-The 1st attempt https://github.com/ipk7218/andersen-trainee is private.
+The 1st attempt https://github.com/ipk7218/andersen-trainee **is private**.
 
 # About this code
 1. Clone this repository. You need to have **Task1.py** and **Task2.txt**.
